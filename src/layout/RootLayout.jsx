@@ -9,15 +9,19 @@ export default function RootLayout() {
       <header>
           <nav>
             <NavLink to="/"><img src={weblogo} alt="logo" style={{}}></img></NavLink>
-            <NavLink to="/Portfolio" className="portfolio-link">Portfolio</NavLink>
-            <NavLink to="/about" className="about-link">About Us</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="Portfolio" className="portfolio-link">Portfolio</NavLink>
+            <NavLink to="about" className="about-link">About Us</NavLink>
+            <NavLink to="contact">Contact</NavLink>
           </nav>
           <HamburgerMenu/>
         </header>
+
+
+
         <main>
           <Outlet />
         </main>
     </div>
   )
 }
+
