@@ -9,20 +9,15 @@ import NotFound from "./pages/NotFound"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<RootLayout />}>
+    <Route path='/' element={<RootLayout />}>
       <Route index element={<Home />} />
-      <Route path="*" element={<NotFound />} />
+      <Route path='*' element={<NotFound />} />
     </Route>
   ),
   {
-    basename: "/arch-studio-multipage-website",
+    basename: '/arch-studio-multipage-website',
   }
 );
-
-
-
-
-
 
 function App() {
 
