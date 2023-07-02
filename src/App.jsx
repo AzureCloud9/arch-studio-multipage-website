@@ -7,7 +7,8 @@ const router = createBrowserRouter({
   basename: '/arch-studio-multipage-website',
   routes: createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
-      <Route path="/" element={<Home />} />
+      <Route index element={<Home />} />
+      <Route path="*" element={<NotFound />} />
     </Route>
   )
 });
