@@ -1,0 +1,22 @@
+.archstudio {
+    width: 375px;
+}
+
+.archstudio h2 {
+    color: #1B1D23;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-top: 141px;
+    margin-left: 32px;
+}
+
+.archstudio p {
+    color: #60636D;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 22px;
+    margin-left: 32px;
+    margin-bottom: 113px;
+}
