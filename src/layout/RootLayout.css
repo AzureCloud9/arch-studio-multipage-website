@@ -26,6 +26,7 @@ nav {
         margin-top: 64px;
         margin-left: 164px;
         margin-right: 94.84px;
+        margin-bottom: ;
     }
     
     .portfolio-link {
@@ -38,6 +39,8 @@ nav {
      
     nav {
         display: block;
+        margin-bottom: 56px;
+
     }
 
     nav img {
