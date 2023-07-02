@@ -1,0 +1,37 @@
+.not-found-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7D828F;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.error-code {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.home-link {
+    display: inline-block;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.home-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
