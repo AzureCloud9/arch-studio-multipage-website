@@ -8,7 +8,7 @@ export default function RootLayout() {
     <div className="root-layout">
       <header>
           <nav>
-            <NavLink to="/arch-studio-multipage-website/"><img src={weblogo} alt="logo" style={{}}></img></NavLink>
+            <NavLink to="/"><img src={weblogo} alt="logo" style={{}}></img></NavLink>
             <NavLink to="Portfolio" className="portfolio-link">Portfolio</NavLink>
             <NavLink to="about" className="about-link">About Us</NavLink>
             <NavLink to="contact">Contact</NavLink>

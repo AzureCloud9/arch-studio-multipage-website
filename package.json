@@ -2,6 +2,7 @@
   "name": "arch-studio-multi-page-website",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://azurecloud9.github.io/arch-studio-multipage-website/",
   "type": "module",
   "scripts": {
     "dev": "vite",
