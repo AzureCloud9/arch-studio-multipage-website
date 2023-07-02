@@ -1,9 +1,9 @@
-import './Home.css'
-import mobileImg1 from "../assets/home/mobile/image-hero-paramour.jpg"
+import './Hero.css'
+import mobileImg1 from "../../assets/home/mobile/image-hero-paramour.jpg"
 import { NavLink } from "react-router-dom"
 
 
-export default function Home() {
+export default function Hero() {
   return (
     <div className="home-layout">
       <div className="overlay-text">

@@ -4,7 +4,7 @@ import { createBrowserRouter,  Route, createRoutesFromElements, RouterProvider }
 import RootLayout from "./layout/RootLayout"
 
 //pages
-import Home from "./pages/Home"
+import Home from "./pages/home/Home"
 import NotFound from "./pages/NotFound"
 
 const router = createBrowserRouter(
