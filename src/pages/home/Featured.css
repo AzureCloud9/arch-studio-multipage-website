@@ -30,7 +30,7 @@
 .boxlogo {
     position: absolute;
     display: flex;
-    bottom: 0px;
+    bottom: -2536px;
     justify-content: center;
     width: 375px;
 }
