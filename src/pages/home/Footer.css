@@ -1,0 +1,26 @@
+.footer {
+    width: 100vw;
+    background-color: #EEEFF4;
+    height: 200px;
+
+}
+
+.footer-links {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links a {
+    margin-bottom: 32px;
+    text-decoration: none;
+    color: #7D828F;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.first-link {
+    margin-top: 93px;
+  }
