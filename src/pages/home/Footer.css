@@ -1,7 +1,11 @@
 .footer {
     width: 100vw;
     background-color: #EEEFF4;
-    height: 00px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
@@ -24,3 +28,17 @@
 .first-link {
     margin-top: 93px;
   }
+
+.footer-button {
+    width: 252px;
+    height: 72px;
+    background-color: #1B1D23;
+}
+
+.footer-button a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+
+}

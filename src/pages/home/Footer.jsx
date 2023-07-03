@@ -9,7 +9,7 @@ export default function Footer() {
             <NavLink to="/contact">Contacts</NavLink>
         </div>
 
-        <div className='button1' style={{width:"252px", marginBottom:'48px', display:'flex', justifyContent:'center', alignItems:'center'}}><NavLink to="/portfolio">See Our Portfolio</NavLink></div>
+        <div className='footer-button' style={{width:"252px", marginBottom:'48px', display:'flex', justifyContent:'center', alignItems:'center'}}><NavLink to="/portfolio">See Our Portfolio</NavLink></div>
     </div>
   )
 }
