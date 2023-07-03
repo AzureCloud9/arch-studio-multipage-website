@@ -13,18 +13,21 @@ export default function Featured() {
         </div>
         <div className='projects-layout'>
             <div className='box'>
-                <h1></h1>
+                <h1>Project Del Sol</h1>
+                <NavLink to='/portfolio'>view all projects</NavLink>
                 <img src={img1} alt='img'></img>
             </div>
 
             <div className='box'>
-                <h1></h1>
+                <h1>228B Tower</h1>
+                <NavLink to='/portfolio'>view all projects</NavLink>
                 <img src={img2} alt='img'></img>
             </div>
 
             <div className='box'>
-                <h1></h1>
+                <h1>Le Prototype</h1>
                 <img src={img3} alt='img'></img>
+                <NavLink to='/portfolio'>view all projects</NavLink>
             </div>
 
             <div className='button1' style={{width:"311px", marginBottom:'132px', marginLeft:"0px",}}><NavLink to="/portfolio">About Us</NavLink></div>
