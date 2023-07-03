@@ -1,0 +1,28 @@
+.hero2-section {
+    width: 100vw;
+    height: auto;
+    position: relative;
+}
+
+.hero2-section img {
+    width: 100%;
+    height: 560px;
+    object-fit: cover; 
+    filter: brightness(50%);
+}
+
+.overlay-text2 {
+    position: absolute;
+    color: white;
+    z-index: 1;
+}
+
+.overlay-text2 h2 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-top: 182px;
+    margin-left: 32px;
+    margin-bottom: 23px;
+}
