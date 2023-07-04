@@ -50,3 +50,18 @@
     margin-bottom: 68px;
 }
 
+.owners-title {
+    margin-left: 32px;
+    color: #1B1D23;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+
+.owners-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}

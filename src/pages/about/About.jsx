@@ -1,5 +1,12 @@
 import hero from '../../assets/about/mobile/image-hero.jpg'
+import leaderpfp1 from '../../assets/about/desktop/avatar-jake.jpg'
+import leaderpfp2 from '../../assets/about/desktop/avatar-thompson.jpg'
+import leaderpfp3 from '../../assets/about/desktop/avatar-jackson.jpg'
+import leaderpfp4 from '../../assets/about/desktop/avatar-maria.jpg'
 import './About.css'
+import Leader from './Leader'
+import Footer from '../home/Footer'
+
 export default function About() {
   return (
     <div className="about-layout">
@@ -36,8 +43,18 @@ export default function About() {
                 professionals provides input on every<br></br>
                 project.</p>
         </div>
+        <div className='owners'>
+            <h1 className='owners-title'>The <br></br> Leaders</h1>
+            <div className='owners-boxes'>
+                <Leader img={leaderpfp1} title={"Jake Richards"} rank={"Chief Architect"}/>
+                <Leader img={leaderpfp2} title={"Thompson Smith"} rank={"Head of Finance"}/>
+                <Leader img={leaderpfp3} title={"Jackson Rourke"} rank={"Lead Designer"}/>
+                <Leader img={leaderpfp4} title={"Maria Simpson"} rank={"Senior Architect"}/>
+            </div>
+        </div>
 
-        <h1>The <br></br> Leaders</h1>
+
+        <Footer/>
     </div>
   )
 }
