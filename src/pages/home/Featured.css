@@ -21,7 +21,7 @@
 }
 
 .box {
-    position: relative; /* Add this line */
+    position: relative; 
     display: flex;
     justify-content: center;
     width: 375px;
