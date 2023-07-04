@@ -19,6 +19,7 @@ export default function Portfolio() {
   return (
     <div>
       <>
+      
         <Box title="Seraph Station" date="September 2019" img={img1} />
         <Box title="Eebox Building" date="August 2017" img={img2} />
         <Box title="Federal II Tower" date="March 2017" img={img3} />
