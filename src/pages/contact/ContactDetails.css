@@ -1,0 +1,42 @@
+.contact-details {
+}
+
+.contact-details h1 {
+    color: #1B1D23;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 40px;
+    margin-left: 32px;
+
+}
+
+.contact-details img {
+    filter: brightness();
+    margin-top: 71px;
+    margin-bottom: 60px;
+}
+
+.contact-box h2 {
+    color: #60636D;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    margin-left: 32px;
+
+}
+
+.contact-box p {
+    color: #60636D;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 32px;
+
+}
+
+.contact-box :last-child {
+    margin-top: 14px;
+    margin-left: 32px;
+
+}
+

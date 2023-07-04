@@ -1,4 +1,3 @@
-import React from 'react';
 import Box from './Box';
 import './Portfolio.css';
 import img1 from '../../assets/portfolio/mobile/image-seraph.jpg';
