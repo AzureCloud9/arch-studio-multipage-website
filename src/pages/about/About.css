@@ -1,0 +1,52 @@
+.about-layout {
+    width: 100vw;
+    height: auto;
+}
+
+.about-layout img {
+    max-width: 500px;
+    width: 100%;
+    filter:brightness(60%);
+    position: relative;
+    
+
+}
+
+.white-bar {
+    width: 343px;
+    height: 45px;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    margin-top: 220px;
+}
+
+.block1 {
+    margin-top: 20px;
+    margin-left: 32px;
+}
+
+.block1 h1 {
+    color: #1B1D23;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -1.2px;
+    margin-bottom: 21px;
+}
+
+.block1 p {
+    color: #60636D;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 76px;
+}
+
+.retangle {
+    width: 65px;
+    height: 1px;
+    background: #C8CCD8;
+    margin-left: 33px;
+    margin-bottom: 68px;
+}
+

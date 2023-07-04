@@ -1,5 +1,6 @@
 nav { 
     display: none;
+    z-index: 11;
 }
 
 .hamburger-menu {
@@ -26,7 +27,6 @@ nav {
         margin-top: 64px;
         margin-left: 164px;
         margin-right: 94.84px;
-        margin-bottom: ;
     }
     
     .portfolio-link {

@@ -9,16 +9,16 @@ import RootLayout from "./layout/RootLayout"
 import Home from "./pages/home/Home"
 import NotFound from "./pages/NotFound"
 import Portfolio from './pages/portfolio/Portfolio'
-import ScrollToTop from "./components/ScrollToTop"
+import About from "./pages/about/About"
 
-
+  
 
 const router = createBrowserRouter(
   createRoutesFromElements(
       <Route path='/' element={<RootLayout />}>
-        <ScrollToTop/>
         <Route index element={<Home />} />
         <Route path='/portfolio' element={<Portfolio/>}/>
+        <Route path='/about' element={<About/>}/>
         <Route path='*' element={<NotFound />} />
       </Route>
 
