@@ -9,10 +9,14 @@ import RootLayout from "./layout/RootLayout"
 import Home from "./pages/home/Home"
 import NotFound from "./pages/NotFound"
 import Portfolio from './pages/portfolio/Portfolio'
+import ScrollToTop from "./components/ScrollToTop"
+
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
       <Route path='/' element={<RootLayout />}>
+        <ScrollToTop/>
         <Route index element={<Home />} />
         <Route path='/portfolio' element={<Portfolio/>}/>
         <Route path='*' element={<NotFound />} />
