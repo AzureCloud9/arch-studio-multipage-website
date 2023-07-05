@@ -1,6 +1,7 @@
 import hero from '../../assets/contact/mobile/image-hero.jpg'
 import ContactDetails from './ContactDetails'
 import ContactForm from './ContactForm'
+import Footer from '../../pages/home/Footer'
 export default function Contacts() {
   return (
     <div className="about-layout">
@@ -18,6 +19,7 @@ export default function Contacts() {
         
         <ContactDetails/>
         <ContactForm/>
+        <Footer/>
     </div>
   )
 }
