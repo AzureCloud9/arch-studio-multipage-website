@@ -1,3 +1,6 @@
+.archstudio-desktop {
+    display: none;
+}
 .archstudio {
     width: 375px;
 }
@@ -19,4 +22,60 @@
     margin-top: 22px;
     margin-left: 32px;
     margin-bottom: 113px;
+}
+
+@media (min-width: 1025px)  {
+    .archstudio {
+        display: none;
+        
+    }
+
+    .archstudio-desktop {
+        display: block;
+        width: 100vw;
+        margin-bottom: 211px;
+
+    }
+
+    .archstudio-desktop h1 {
+        color: #EEEFF4;
+        font-size: 250px;
+        font-weight: 700;
+        line-height: 200px;
+        letter-spacing: -5px;
+        margin-top: 108px;
+        margin-left: 165px;
+        z-index: 2;
+    }
+
+    .archstudio-desktop h2 {
+        color: #1B1D23;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: -2px;
+        margin-bottom: 42px;
+    }
+
+    .archstudio-desktop p {
+        color: #60636D;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        margin-right: 125px;
+    }
+
+    .archstudio-desktop-box {
+        display: flex;
+        margin-left: 355px;
+        margin-top: -172px;
+        z-index: -1;
+        position: relative;
+    }
+
+    .archstudio-desktop-box1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;    }
+        
 }

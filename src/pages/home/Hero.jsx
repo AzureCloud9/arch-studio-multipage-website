@@ -4,7 +4,6 @@ import hero1 from '../../assets/home/desktop/image-hero-paramour.jpg'
 import hero2 from '../../assets/home/desktop/image-hero-seraph.jpg'
 import hero3 from '../../assets/home/desktop/image-hero-federal.jpg'
 import hero4 from '../../assets/home/desktop/image-hero-trinity.jpg'
-import arrow from '../../assets/icons/icon-arrow.svg'
 import { useState } from 'react'
 
 import { NavLink } from "react-router-dom"
