@@ -125,7 +125,8 @@
         display: flex;
         position: absolute;
         bottom: 4px;
-        left: -80px;
+        left:80px;
+        transform: translateX(-50%);
         z-index: 1;
       }
       
@@ -138,6 +139,7 @@
         cursor: pointer;
         background-color: white;
       }
+      
       
       .dekstop-box h1 {
         color: black;
