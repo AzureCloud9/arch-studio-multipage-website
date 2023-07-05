@@ -68,7 +68,6 @@
     .home-layout-dekstop {
         display: block;
         margin-left: 165px;
-        width: 100vw;
         height: auto;
         position: relative;
     }
