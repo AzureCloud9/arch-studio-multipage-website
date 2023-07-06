@@ -1,3 +1,6 @@
+.featured-Layout-desktop {
+    display: none;
+}
 .featured-Layout {
     width: 100vw;
     display: flex;
@@ -91,3 +94,82 @@
     color: white;
 }
 
+@media (min-width: 1025px)  {
+    .featured-Layout {
+        display: none;  
+    }
+
+    .featured-Layout-desktop {
+        display: block;
+        margin-bottom: 200px;
+    }
+
+    .featured-Layout-desktop {
+
+    }
+
+    .title-button {
+        display: flex;
+        margin-bottom: 65px;
+    }
+
+    .title-button h1 {
+        width: 446px;
+        color: #1B1D23;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 64px;
+        margin-left: 165px;
+        margin-right: 495px;
+    }
+
+    .see-all-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 169px;
+        height: 72px;
+        background-color: #1B1D23;
+    }
+
+    .see-all-btn p {
+        color: white;
+    }
+
+    .box-desktop {
+        position: relative;
+        margin-right: 30px;
+    }
+
+    .box-desktop h1 {
+        position: absolute;
+        margin-left: 40px;
+        margin-top: 457px;
+        color: #FFF;
+        font-size: 32px;
+        font-weight: 700;
+        z-index: 2;
+    }
+
+    .box-desktop a {
+        position: absolute;
+        margin-left: 40px;
+        margin-top: 497px;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        z-index: 2;
+        text-decoration: none;
+        opacity: 0.75;
+
+    }
+
+    .box-desktop img {
+         filter: brightness(75%);
+    }
+
+    .featured-boxes-desktop{
+        display: flex;
+    }
+}
