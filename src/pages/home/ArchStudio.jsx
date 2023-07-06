@@ -19,9 +19,9 @@ export default function ArchStudio() {
           <div className="archstudio-desktop-box1"> 
             <h2>Welcome to <br></br> Arch Studio</h2>
             <p>We have a unique network and skillset to help bring your <br></br> projects to life. Our small team of highly skilled individuals <br></br> combined with our large network put us in a strong <br></br>  position to deliver xceptional results.<br></br>
-
+            <br></br>
             Over the past 10 years, we have worked on all kinds of <br></br>  projects. From stations to high-rise buildings, we create<br></br>  spaces that inspire and delight. <br></br>
-            
+            <br></br>
             We work closely with our clients so that we understand the <br></br>  intricacies of each project. This allows us to work in <br></br> harmony the surrounding area to create truly stunning <br></br>  projects that will stand the test of time.</p>
           </div>
           <div>
