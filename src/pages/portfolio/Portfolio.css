@@ -1,3 +1,7 @@
+.portfolio-layout-desktop {
+    display: none;
+}
+
 .portfolio-layout {
     width: 100vw;
     display: flex;
@@ -54,3 +58,86 @@
     filter: brightness(80%);
     text-decoration: none;
 } 
+
+@media (min-width: 1025px)  {
+
+    .portfolio-layout {
+        display: none;
+    }
+    
+    .portfolio-layout-desktop {
+        display: block;
+    }
+
+    .box-layout {
+        display: none;
+    }
+
+    .portfolio-layout-dekstop {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .portfolio-box-desktop {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-right: 30px;
+        margin-bottom: 32px;
+    }
+    
+    .portfolio-box-desktop img {  
+        filter: brightness(50%)
+    }
+    
+    .portfolio-box-desktop h1 {
+        position: absolute;
+        top: 84%;
+        left: 15%;
+        color: white;
+        z-index: 5;
+    }
+    
+    
+    .portfolio-box-desktop p {
+        position: absolute;
+        top: 79%;
+        left: 15%;
+        color: white;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 500;
+        z-index: 5;
+        filter: brightness(80%);
+    }
+    
+    .portfolio-box-desktop a {
+        position: absolute;
+        top: 90%;
+        left: 15%;
+        color: white;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 500;
+        z-index: 5;
+        filter: brightness(80%);
+        text-decoration: none;
+    } 
+
+    .box-layout-desktop {
+        margin-left: 166px;
+        width: 100vw;
+        margin-bottom:128px;
+    }
+
+    .box-row-desktop {
+        display: flex;
+        width: 100vw;
+    }
+    
+
+
+}

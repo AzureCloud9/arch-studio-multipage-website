@@ -55,11 +55,9 @@
     }
 
     .footer-desktop {
-        display: block;
         display: flex;
-        margin-left: 165px;
         position: relative;
-        
+        margin-left: 166px;
     }
 
    
@@ -113,7 +111,7 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        margin-left: 835px;
+        margin-left: 860px;
         margin-top: 64px;
         z-index: 10;
     }
