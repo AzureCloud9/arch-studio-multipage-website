@@ -1,3 +1,7 @@
+.footer-desktop {
+    display: none;
+}
+
 .footer {
     width: 100vw;
     background-color: #EEEFF4;
@@ -41,5 +45,82 @@
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
+
+}
+
+
+@media (min-width: 1025px)  {
+    .footer {
+        display: none;
+    }
+
+    .footer-desktop {
+        display: block;
+        display: flex;
+        margin-left: 165px;
+        position: relative;
+        
+    }
+
+   
+    .boxlogo2-desktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 200px;
+        height: 200px;
+        background-color:white ;
+        border: 1px solid #1B1D23;
+    }
+
+    .footer-links-desktop {
+        display: flex;
+        align-items: center;
+        background: #EEEFF4;
+        width: 784px;
+        height: 200px;
+        
+    }
+
+    .footer-links-desktop a {
+        color: #7D828F;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        text-decoration: none;
+    }
+    
+    .footer-links-desktop a:first-child {
+        margin-left: 85px;
+        margin-right: 61px;
+    }
+
+    .footer-links-desktop a:nth-child(2) {
+        margin-right: 61px;
+    }
+
+    .logobox-desktop {
+        width: 96.164px;
+        height: 40px;
+    }
+
+    .footer-button-desktop {
+        width: 252px;
+        height: 72px;
+        background: #1B1D23;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        margin-left: 835px;
+        margin-top: 64px;
+        z-index: 10;
+    }
+
+    .footer-button-desktop a {
+        color: white;
+        text-decoration: none;
+    }
 
 }
