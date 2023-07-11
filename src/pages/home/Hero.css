@@ -108,6 +108,11 @@
         height: 72px;
         background: #1B1D23;
         margin-left: 190px;
+        cursor: pointer;
+    }
+
+    .button1-dekstop:hover {
+        background: #60636D;
     }
     
     .button1-dekstop a {
@@ -126,6 +131,7 @@
         left:80px;
         transform: translateX(-50%);
         z-index: 1;
+        
       }
       
       .dekstop-box {

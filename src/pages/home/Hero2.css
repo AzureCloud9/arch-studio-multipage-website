@@ -77,7 +77,12 @@
         justify-content: center;
         align-items: center;
         margin-left: 190px;
+        cursor: pointer;
         
+    }
+
+    .button1-desktop:hover {
+        background: #60636D;
     }
 
     .button1-desktop a {

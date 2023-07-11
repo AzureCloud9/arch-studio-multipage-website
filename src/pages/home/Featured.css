@@ -130,6 +130,11 @@
         width: 169px;
         height: 72px;
         background-color: #1B1D23;
+        cursor: pointer;
+    }
+
+    .see-all-btn:hover {
+        background: #60636D;
     }
 
     .see-all-btn p {
