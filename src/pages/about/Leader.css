@@ -1,3 +1,7 @@
+.leader-box-desktop {
+    display: none;
+}
+
 .leader-box img {
     width: 311px;
     height: 284px;
@@ -7,4 +11,30 @@
 
 .leader-box p {
     margin-bottom: 79px;
+}
+
+@media (min-width: 1025px)  {
+    .leader-box {
+        display: none;
+    }
+    
+    .leader-box-desktop {
+        display: block;
+    }
+
+    .leader-box-desktop img {
+        width: 311px;
+        height: 284px;
+        filter: brightness(100%);
+        margin-bottom: 15px;
+        margin-right: 35px;
+    }
+    
+    .leader-box-desktop h1 {
+        
+    }
+
+    .leader-box-desktop p {
+        margin-bottom: 63px;
+    }
 }

@@ -62,7 +62,7 @@ export default function Portfolio() {
         </div>
 
         <div className='box-row-desktop'>
-          <Box title="Grand Edelweiss Hotel" date="December 2013" img={img7desktop} />
+          <Box title="Edelweiss Hotel" date="December 2013" img={img7desktop} />
           <Box title="Netcry Tower" date="August 2012" img={img8desktop} />
           <Box title="Hypers" date="January 2012" img={img9desktop} />
         </div>

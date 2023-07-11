@@ -1,3 +1,6 @@
+.about-layout-desktop {
+    display: none;
+}
 .about-layout {
     width: 100vw;
     height: auto;
@@ -64,4 +67,14 @@
     align-items: center;
     flex-direction: column;
     width: 100vw;
+}
+
+@media (min-width: 1025px)  {
+    .about-layout {
+        display: none;
+    }
+
+    .about-layout-desktop {
+        display: block;
+    }
 }

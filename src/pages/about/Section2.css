@@ -1,0 +1,25 @@
+.section2-layout {
+    display: flex;
+    margin-left: 165px;
+    margin-bottom: 209px;
+}
+
+.section2-layout h1 {
+    color: #1B1D23;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    margin-bottom: 51px;
+    margin-top: 81px;
+}
+
+.section2-layout p {
+    color: #60636D;
+    font-family: League Spartan;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-right: 120px;
+}

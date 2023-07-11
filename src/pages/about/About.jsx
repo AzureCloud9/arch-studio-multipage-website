@@ -6,9 +6,14 @@ import leaderpfp4 from '../../assets/about/desktop/avatar-maria.jpg'
 import './About.css'
 import Leader from './Leader'
 import Footer from '../home/Footer'
+import Section1 from './Section1'
+import Section2 from './Section2'
+import Section3 from './Section3'
 
 export default function About() {
   return (
+
+<>
     <div className="about-layout">
         <div className='about-hero'>
             <div className='white-bar'></div>
@@ -52,9 +57,15 @@ export default function About() {
                 <Leader img={leaderpfp4} title={"Maria Simpson"} rank={"Senior Architect"}/>
             </div>
         </div>
-
-
         <Footer/>
     </div>
+
+    <div className='about-layout-desktop'>
+        <Section1/>
+        <Section2/>
+        <Section3/>
+        <Footer/>
+    </div>
+</>
   )
 }
