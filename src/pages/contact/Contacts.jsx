@@ -34,6 +34,8 @@ export default function Contacts() {
               <p>Our small team of world-class professionals will work with <br></br> you every step of the way. Strong relationships are at the <br></br> core of everything we do. This extends to the relationship <br></br> our projects have with their surroundings.</p>
           </div>
       </div>
+
+      <ContactDetails/>
     </div>
   </>
   )

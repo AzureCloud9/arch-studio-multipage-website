@@ -1,3 +1,7 @@
+.contact-form-desktop {
+  display: none;
+}
+
 .contact-form {
     border-bottom: 1px solid #ccc;
     padding-bottom: 20px;
@@ -46,3 +50,66 @@
     background-color: #555;
   }
   
+  @media (min-width: 1025px)  {
+      .contact-form {
+        display: none;
+      }
+      .contact-form-desktop {
+        display: flex;
+        margin-left: 165px;
+        margin-top: 124px;
+        border-bottom: 0px solid black;
+        margin-bottom: 150px;
+      }
+
+      .contact-form-desktop {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 20px;
+        margin-bottom: 150px;
+        border-bottom: 0px solid black;
+
+      }
+      
+      .contact-form-desktop h1 {
+        margin-bottom: 20px;
+        color: #1B1D23;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: -2px;
+        margin-right: 95px;
+      }
+      
+      .contact-form-desktop form {
+        display: flex;
+        flex-direction: column;
+        margin-left: 32px;
+      }
+      
+      .contact-form-desktop label {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      
+      .contact-form-desktop input,
+      .contact-form-desktop textarea {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: none;
+        border-bottom: 1px solid black;
+        width: 730px;
+      }
+      
+      .contact-form-desktop input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        width: 730px;
+      }
+      
+      .contact-form-desktop input[type="submit"]:hover {
+        background-color: #555;
+      }
+  }

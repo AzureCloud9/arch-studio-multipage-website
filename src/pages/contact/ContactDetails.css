@@ -1,6 +1,6 @@
-.contact-details {
+.contact-details-desktop {
+    display: none;
 }
-
 .contact-details h1 {
     color: #1B1D23;
     font-size: 48px;
@@ -40,3 +40,60 @@
 
 }
 
+@media (min-width: 1025px)  {
+    .contact-details {
+        display: none;
+    }
+
+    .contact-details-desktop {
+        display: block;
+    }
+
+    .contact-sides {
+        display: flex;
+        margin-left: 165px;
+    }
+
+    
+
+    .contact-leftside h1 {
+        color: #1B1D23;
+        font-family: League Spartan;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 700;
+        margin-right: 120px;
+    }
+
+    .contact-rightside {
+        display: flex;
+    }
+
+    .contact-box-desktop h2 {
+        color: #60636D;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 14px;
+        
+    
+    }
+    
+    .contact-box-desktop p {
+        color: #60636D;
+        font-size: 18px;
+        font-weight: 500;
+        margin-right: 80px;
+        
+    
+    }
+
+    .contact-box-desktop p:nth-child(4) {
+        margin-bottom: 59px;
+
+    }
+
+    .map {
+        margin-left: 165px;
+
+    }
+}
