@@ -46,7 +46,10 @@ nav {
     nav img {
         width: 96.164px;
         height: 40px;   
+        cursor: pointer;
     }
+
+
     
     
 }
