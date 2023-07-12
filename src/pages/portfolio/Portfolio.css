@@ -65,6 +65,14 @@
 
 @media (min-width: 1025px)  {
 
+    .box-layout-desktop {
+        display: block;
+    }
+    
+    .portfolio-layout-desktop {
+        display: block;
+    }
+
     .portfolio-layout {
         display: none;
     }
