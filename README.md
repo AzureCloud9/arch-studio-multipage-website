@@ -5,7 +5,7 @@ This repository documents my journey in React.js. Here, I share my struggles, le
 ## Struggles
 
 - Struggle 1: React Router wasn't really a struggle, but it was confusing at first. Luckily, before I started this project, I followed a course called Frontend Mentors, which really helped me improve my routing skills a lot. Even though I'm not a pro with it, I know how it functions, and I will get better day by day.
-- Struggle 2: Another struggle I had was making NavLinks go on top of the page. Each time I clicked on a NavLink, it would stay on the same page, which was really annoying to fix. I managed to fix it due to Stack Overflow <3
+- Struggle 2: Another struggle I had was making NavLinks go on top of the page. Each time I clicked on a NavLink, it would stay on the same page, which was really annoying to fix. I managed to fix it due to Stack Overflow <3 <3
 
 ## Lessons Learned
 
