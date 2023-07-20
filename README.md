@@ -3,25 +3,22 @@
 This repository documents my journey in React.js. Here, I share my struggles, lessons learned, and progress. The purpose is to provide insights into my growth and showcase my development journey to recruiters and others who are interested.
 
 ## Struggles
-
-- Struggle 1: React Router wasn't really a struggle, but it was confusing at first. Luckily, before I started this project, I followed a course called Frontend Mentors, which really helped me improve my routing skills a lot. Even though I'm not a pro with it, I know how it functions, and I will get better day by day.
-- Struggle 2: Another struggle I had was making NavLinks go on top of the page. Each time I clicked on a NavLink, it would stay on the same page, which was really annoying to fix. I managed to fix it due to Stack Overflow <3 <3
+- The project wasn't hard to do, if I need to be honest. I fetched from a URL shortener API, which gives me the short link bank in data.
+- Tailwind: I started with mobile-first, then went to desktop, but it was a bit confusing at first on how I could do it. However, after some quick research, I got it working.
 
 ## Lessons Learned
 
-### Lesson 1: React Routing
+### Lesson 1: API 
 
-- This project focused on implementing React routing, which allowed me to create a multi-page website and improve my skills as a frontend developer.
-- I learned the importance of proper routing for a website and how it enhances the user experience by enabling navigation between different pages seamlessly.
+- Fetching data wasn't as hard as I expected, maybe because it was basic.
 
-### Lesson 2: Responsive Design and CSS Styling
+### Lesson 2: .maps
 
-- I learned how to use media queries and flexbox to ensure that the website adapts seamlessly to different screen sizes and devices, providing a consistent user experience across desktop and mobile platforms.
-- By applying responsive design principles and enhancing the visual aesthetics of the website, I was able to create a professional and polished user interface.
+- tried to make this project a few weeks back but couldn't do it because I didn't know how I could make a new div pop up when a user inputs data. I'm happy to say that I finally learned it, and it wasn't even that hard. Practice makes perfect, though. 
 
 ## Achievements
 
-- Being able to use React Router was a big achievement for me, and I'm very happy with this project and how it's going right now.
+- Being able to fetch data and create a perfectly working URL shortener site.
 
 
 ## Goals
@@ -32,7 +29,6 @@ This repository documents my journey in React.js. Here, I share my struggles, le
 
 ## Resources
 
-- React Router in depth from TheNetNinja : https://www.youtube.com/watch?v=OMQ2QARHPo0&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf
 - Frontend Mentor for the beautiful Figma design files to help me improve my frontend.
 
 ---
